@@ -31,7 +31,7 @@ const cards = [
     },
     {
         title: '<img src="media/thankyou.jpg" class="img-fluid shadow-lg rounded" alt="">',
-        body: ` <video controls name="Thankyou" width="100%" height="50px" class="shadow-lg rounded border border-dark" autofocus autoplay>
+        body: ` <video controls name="Thankyou" width="100%" height="50px" class="shadow-lg rounded border" autofocus autoplay>
                     <source src="media/music.mp3" type="audio/mpeg">
                 </video >
                     `
