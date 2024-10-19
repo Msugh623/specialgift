@@ -29,6 +29,13 @@ const cards = [
         title: 'Excited for What’s Next',
         body: 'I know the best is yet to come. With all you’ve gained and everything I’ve learned in your absence, I can’t wait to see what new heights we can reach together. Welcome back once again!'
     },
+    {
+        title: '<img src="media/thankyou.jpg" class="img-fluid shadow-lg rounded" alt="">',
+        body: ` <video controls name="Thankyou" width="100%" height="50px" class="shadow-lg rounded border border-dark" autofocus autoplay>
+                    <source src="media/music.mp3" type="audio/mpeg">
+                </video >
+                    `
+    },
 ]
 
 for (let i = 0; i < btns.length; i++) {
@@ -70,8 +77,8 @@ function updateCard() {
     text.classList.add('slideUp')
 
     const { title, body } = cards[curr]
-    header.textContent = title
-    text.textContent = body
+    header.innerHTML = title
+    text.innerHTML = body
 
     // Loops over .del element to remove d-none
     loop(true)
