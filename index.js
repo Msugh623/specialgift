@@ -7,7 +7,7 @@ let curr = 0
 const cards = [
     {
         title: 'Good Morning Tg',
-        body: "Welcome back from youth service! It feels like forever since we last worked together, and I'm beyond excited to reconnect with you. Your guidance and mentorship have meant so much to me over the years."
+        body: "Welcome back from youth service! It feels like forever since we last had some time together, and I'm beyond excited to reconnect with you. Your guidance and mentorship have meant so much to me over the years."
     },
     {
         title: 'Reflecting on the Journey',
@@ -19,7 +19,7 @@ const cards = [
     },
     {
         title: 'Missing Our Sessions',
-        body: "It’s been hard working on my own without our regular sessions. I’ve missed your insights and the way you could make even the most complex topics seem simple. There's so much I want to catch up on with you!"
+        body: "It’s been hard working on my own without our regular sessions. I’ve missed your insights and the way you could make even the most complex topics seem simple."
     },
     {
         title: 'Thank You for Your Support',
